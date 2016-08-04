@@ -4,8 +4,8 @@ class Header extends Component {
 	render() {
 		return (
 			<nav className="header-nav">
-				<a href="./">Home</a>
-				<a href="./about">About</a>
+				<a href="/">Home</a>
+				<a href="about">About</a>
 			</nav>
 		);
 	}

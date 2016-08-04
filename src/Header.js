@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router';
 
 class Header extends Component {
 	render() {
 		return (
 			<nav className="header-nav">
-				<a href="/">Home</a>
-				<a href="about">About</a>
+				<Link to="/">Home</Link>
+				<Link to="/about">About</Link>
 			</nav>
 		);
 	}
